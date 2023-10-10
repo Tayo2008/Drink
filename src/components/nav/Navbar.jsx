@@ -11,7 +11,7 @@ const Navbar = () => {
   };
   return (
     <div>
-      <nav className=" bg-white border-b-2 border-blue-200 w-full py-10 flex justify-between items-center left-0  z-10">
+      <nav className=" bg-white border-b-2 border-blue-200 w-full py-4 flex justify-between items-center left-0  z-10">
         <div className="container pl-4 pr-4  mx-auto md:flex z-10 md:justify-between md:items-center w-full ">
           <div className="flex items-center md:flex md:px-14 py-2  ">
             <Link to="/">
@@ -59,7 +59,7 @@ const Navbar = () => {
             </div>
           </div>
           <div
-            className="inline  slef-start text-3xl top-10 absolute right-6  cursor-pointer md:hidden "
+            className="inline  slef-start text-3xl top-6 absolute right-6  cursor-pointer md:hidden "
             onClick={handle}
           >
             {!menu ? <CgMenu /> : <CgClose />}
