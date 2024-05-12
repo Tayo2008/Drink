@@ -1,4 +1,5 @@
 import React from "react";
+import logo from "../../components/assets/logoDrive.png"
 
 const Footer = () => {
   return (
@@ -11,8 +12,8 @@ const Footer = () => {
                 <div className="px-6">
                   <a href="#">
                     <img
-                      className="w-auto h-7"
-                      src="https://merakiui.com/images/full-logo.svg"
+                      className="w-auto h-16 sm:h-24"
+                      src={logo}
                       alt=""
                     />
                   </a>
@@ -83,12 +84,7 @@ const Footer = () => {
                     >
                       Company
                     </a>
-                    <a
-                      href="#"
-                      className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
-                    >
-                      community
-                    </a>
+                   
                     <a
                       href="#"
                       className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
@@ -101,12 +97,7 @@ const Footer = () => {
                     <h3 className="text-gray-700 uppercase dark:text-white">
                       Blog
                     </h3>
-                    <a
-                      href="#"
-                      className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
-                    >
-                      Tec
-                    </a>
+                    
                     <a
                       href="#"
                       className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
@@ -123,26 +114,21 @@ const Footer = () => {
 
                   <div>
                     <h3 className="text-gray-700 uppercase dark:text-white">
-                      Products
+                      Partners
                     </h3>
                     <a
                       href="#"
                       className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
                     >
-                      Mega cloud
+                      Hremsoft OES
                     </a>
                     <a
                       href="#"
                       className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
                     >
-                      Aperion UI
+                      Magina
                     </a>
-                    <a
-                      href="#"
-                      className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
-                    >
-                      Meraki UI
-                    </a>
+                   
                   </div>
 
                   <div>
@@ -150,10 +136,10 @@ const Footer = () => {
                       Contact
                     </h3>
                     <span className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">
-                      +1 526 654 8965
+                      +1 519 710 2010
                     </span>
                     <span className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">
-                      example@email.com
+                      info@mhealthdrive.com
                     </span>
                   </div>
                 </div>
@@ -163,7 +149,7 @@ const Footer = () => {
           <hr className="h-px mt-2  bg-gray-200 border-none dark:bg-gray-700" />
           <div>
             <p className="text-center text-gray-500 py-8 bg-gray-400">
-              © TY 2023 - All rights reserved
+              © HealthDrive 2024 - All rights reserved
             </p>
           </div>
         </footer>

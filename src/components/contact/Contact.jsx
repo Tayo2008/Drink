@@ -1,4 +1,5 @@
 import React from "react";
+//import Top from "../../components/assets/african.png"
 
 function Contact() {
   return (
@@ -59,16 +60,16 @@ function Contact() {
               <span className="mb-1">Full name</span>
               <input
                 type="text"
-                placeholder="Leroy Jenkins"
-                className="block w-full rounded-md pl-4 shadow-sm focus:ring focus:ri focus:ri text-white bg-gray-800"
+                placeholder=""
+                className="block w-full roundedpl-4 shadow-sm "
               />
             </label>
             <label className="block">
               <span className="mb-1">Email address</span>
               <input
                 type="email"
-                placeholder="leroy@jenkins.com"
-                className="block w-full rounded-md pl-4 shadow-sm focus:ring focus:ri focus:ri bg-gray-800 text-white"
+                placeholder=""
+                className="block w-full rounded pl-4 shadow-sm "
               />
             </label>
             <label className="block">
@@ -76,20 +77,25 @@ function Contact() {
               <textarea
                 rows="4"
                 placeholder="Message"
-                className="block w-full rounded-md focus:ring focus:ri focus:ri bg-gray-800 text-white"
+                className="block w-full rounded"
               ></textarea>
             </label>
             <button
               type="button"
-              className="self-center px-8 py-3 text-lg rounded focus:ring hover:ring focus:ri bg-violet-500 text-gray-900 focus:ri hover:ri"
+              className="self-center px-8 py-3 text-lg"
             >
               Submit
             </button>
           </form>
         </div>
       </section>
-    </div>
-  );
-}
+      </div>
+      )
+      }
 
-export default Contact;
+
+export default Contact
+
+
+   
+  
